@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @media screen and (min-width: 700px) and (max-width: 900px) {
+        body {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <!-- ul>li.list.child*3>{I am child - 1}  -->
+  <body>
+    <ul id="list-dadu">
+      <li class="list">I am Li</li>
+      <li class="list important">
+        <ul id="list-mama">
+          <li class="list child">I am child-1</li>
+          <li class="list child">I am child-2</li>
+        </ul>
+      </li>
+      <li class="list">I am Li</li>
+      <li class="list important">I am Li</li>
+    </ul>
+  </body>
+</html>
